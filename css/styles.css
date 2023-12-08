@@ -1,0 +1,271 @@
+@media (min-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body { 
+        background-image: url(/img/best-food-background-0neqcd9ozlv3js9y.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    nav {
+        max-width: 900px;
+        margin: auto;
+        background-color: transparent;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .menu-horizontal {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-horizontal li a {
+        display: block;
+        padding: 15px 20px;
+        color: rgb(247, 245, 244);
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    
+    .menu-horizontal li:hover {
+        background-color: rgb(184, 98, 0);
+        border-radius: 8px;
+    }
+    
+    .menu-vertical {
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: transparent;
+    }
+    
+    .menu-horizontal li:hover .menu-vertical {
+        display: block;
+    }
+    
+    .menu-vertical li:hover {
+        background-color: rgb(184, 168, 120);
+        width: 130px;
+    }
+    
+    .menu-vertical li a {
+        display: block;
+        color: white;
+        padding: 15px 15px 15px 20px;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(15, 15, 15);
+    }
+
+    .menua {
+        background-color: rgb(209, 131, 13);
+        border-color: rgb(209, 131, 13);
+        text-decoration: none;
+        cursor: pointer;
+        height: 35px;
+        width: 118px;
+        border-radius: 7px;
+        font-weight: bolder;
+        font-size: 14px;
+    }
+
+    .bienvenida {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        text-align: center;
+    }
+
+    .cursiva {
+        font-family: 'Edu SA Beginner', cursive;
+        font-family: 'Satisfy', cursive;
+        color: rgb(221, 142, 23);
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .parrafo {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .logo {
+        float: left;
+        width: 100px;
+        margin-left: 5em;
+    }
+    
+    .menuvirtual {
+        width: 800px;
+        background-color: rgb(0, 0, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 500px;
+        border-radius: 1em;
+        color: white;
+        margin-top: 5em;
+    }
+
+    .lista {
+        list-style: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .textico {
+        backdrop-filter: blur(15px);
+        margin-left: 1em;
+        width: 769px;
+    }
+
+    .carta {
+        width: 794px;
+        height: 200px;
+        border-radius: 1em 1em 0 0;
+    }
+
+    .precio {
+        background-color: rgb(243, 217, 170);
+        border-color: rgb(243, 217, 170);
+        cursor: pointer;
+        margin-top: 6px;
+        border-radius: 10px;
+        width: 65px;
+    }
+
+    .receta {
+        background-image: linear-gradient(185deg, #dab130 0, #dfa523 16.67%, #e39717 33.33%, #e6880b 50%, #e97806 66.67%, #ec660d 83.33%, #ee5417 100%);
+        width: 769px;
+        border-radius: 10px;
+    }
+
+    .terreceta {
+        margin-left: 1em;
+        width: 760px;
+    }
+
+    .caja {
+        margin-top: 2em;
+        margin-left: 17em;
+        backdrop-filter: blur(35px);
+        width: 800px;
+        border-radius: 1em;
+        border-color: black;
+        border-style: groove;
+    }
+
+    .redes {
+        width: 30px;
+    }
+
+    .container-form {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 58px;
+        margin-top: 18px;
+        background-color: transparent;
+    }
+
+    .container-form h2 {
+        margin-bottom: 15px;
+        font-size: 35px;
+        color: #ca4611;
+    }
+
+    .container-form p {
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 38px;
+        color: #c7c5c2;
+    }
+
+    .container-form a{
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 50%;
+        margin-bottom: 10px;
+        color: rgb(218, 191, 166);
+        font-weight: bolder;
+    }
+
+    .container-form a i {
+        color: rgb(190, 128, 11);
+        margin-right: 10px;
+    }
+
+    .container-form form .campo, textarea {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #5e7574;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        outline: 0px;
+    }
+
+    .container-form form textarea {
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+
+    .con-principal {
+        width: 83%;
+        backdrop-filter: blur(15px);
+        margin-left: 80px;
+        height: 391px;
+        margin-top: 40px;
+        float: left;
+        border-radius: 1em;
+        border-color: #a54519;
+        border-style: groove;
+    }
+
+    .container-form .enviar {
+        padding: 15px;
+        font-size: 16px;
+        border-color: #ec780b;
+        outline: 0px;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 100ms ease;
+    }
+
+    .container-form .enviar:hover {
+        background-color: #ec780b;
+        color: white;
+        transition: all 1ms ease;
+    }
+
+    .tinput {
+        color: azure;
+    }
+
+    iframe {
+        margin-left: 50px;
+        width: 600px;
+    }
+}
